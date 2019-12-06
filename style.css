@@ -1,9 +1,10 @@
 body{
-	width: 1024px;
+	width: 100%;
 }
 .cart-botton-wrap{
 	background-color: #3A77C4FF;
 	border: 1px solid black;
+	position: relative;
 
 }
 .cart-botton-wrap:after {
@@ -11,23 +12,44 @@ body{
 	display: block;
 	width: 100%;
 	clear: both;
+
 }
 .cart-button{
 	float: right;
 	margin: 10px 10px 10px 0;
-	background: #D59F29FF;
+	background :#D59F29FF;
+	border-radius: 7px;
+	cursor: pointer;
 }
+
+.cart-button-menu {
+	height: 300px;
+	width: 400px;
+	position: absolute;
+	top: 110%;
+	left: 75%;
+	outline: 2px solid black;
+	background-color: white;
+}
+
+.cart-button-pop-up-table{
+	display: block;
+	position: absolute;
+}
+
+
+
 .goods-list{
 	display: flex;
 	flex-wrap: wrap;
-	width: 60%;
-	margin: 0 auto;
+	width: 70%;
+	margin: 50px 0 0 20%;
 
 
 }
 .goods-item{
-	border: 1px solid black;
-	margin: 20px 6px 0 0;
+	outline: 1px solid black;
+	margin: 20px 40px 0 0;
 }
 .goods-item img{
 	margin: 10px 5px 0 5px;
@@ -43,5 +65,14 @@ body{
 .goods-item button{
 	float: right;
 	margin: 10px 5px 10px 5px;
+	background: white;
+	border: 1 solid #D59F29FF;
+	color: #D59F29FF;
+	border-radius: 6px;
+	box-shadow: none;
+
+}
+.goods-item button:hover{
 	background: #D59F29FF;
+	Color: white;
 }
