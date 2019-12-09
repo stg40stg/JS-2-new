@@ -14,7 +14,8 @@
     <div class="cart-botton-wrap">
     	<button class="cart-button" onclick="myFunction()">Корзина</button>
             <div id="cart-button-pop-up">
-                <table id="cart-button-pop-up-table-hidden">
+                <div class="cart-wrap">
+                <table class="cart-button-pop-up-table-hidden" id="cart-button-pop-up-table">
                     <thead>
                     <tr>
                         <th scope="col">ID</th>
@@ -29,10 +30,11 @@
                     <tr>
                         <th colspan="2" scope="row">Итого:</th>
                         <td colspan="3">
-                            <span class="">0</span>
-                            <i class=""></i>
+                            <span class="total">0</span>
+                            <i class="class="delete-button productRemoveBtn"></i>
                         </td>
                     </tr>
+                </div>
                     </tfoot>
                 </table>
             </div>

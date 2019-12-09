@@ -20,7 +20,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/для студентов урок 6 курс js1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -45,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575616503040</updated>
       <workItem from="1575616506175" duration="16613000" />
+      <workItem from="1575871475587" duration="16696000" />
     </task>
     <servers />
   </component>
@@ -52,24 +54,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="149" key="#Inspections" timestamp="1575629945602">
+    <state x="232" y="149" key="#Inspections" timestamp="1575892896633">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="149" key="#Inspections/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1575629945602" />
-    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1575627177894">
+    <state x="232" y="149" key="#Inspections/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1575892896633" />
+    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1575889899327">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1575627177894" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/scripts/index.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1575889899327" />
+    <state x="141" y="123" key="SettingsEditor" timestamp="1575889905416">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="123" key="SettingsEditor/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1575889905416" />
+    <state x="296" y="221" key="run.anything.popup" timestamp="1575881068638">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="296" y="221" key="run.anything.popup/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1575881068638" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1575882694612">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984/1280.0.1280.1024@0.0.1280.984" timestamp="1575882694612" />
   </component>
 </project>
