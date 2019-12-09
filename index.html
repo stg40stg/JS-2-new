@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>eShop</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="cart-botton-wrap">
+    	<button class="cart-button" onclick="myFunction()">Корзина</button>
+            <div id="cart-button-pop-up">
+                <div class="cart-wrap">
+                <table class="cart-button-pop-up-table-hidden" id="cart-button-pop-up-table">
+                    <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Имя</th>
+                        <th scope="col">Цена</th>
+                        <th scope="col">Количество</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                    <tfoot>
+                    <tr>
+                        <th colspan="2" scope="row">Итого:</th>
+                        <td colspan="3">
+                            <span class="total">0</span>
+                            <i class="class="delete-button productRemoveBtn"></i>
+                        </td>
+                    </tr>
+                </div>
+                    </tfoot>
+                </table>
+            </div>
+    </div>
+</header>
+<main>
+    <div class="goods-list"></div>
+</main>
+<script src="scripts/index.js"></script>
+<script src="scripts/basket.js"></script>
+<script src="scripts/menu.js"></script>
+</body>
+</html>
